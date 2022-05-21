@@ -1,11 +1,18 @@
 import logo from "./logo.svg";
-import NotesApp from "./notes";
+import { Notes } from "./notes";
+import { NoteList } from "./noteList";
 import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <NotesApp></NotesApp>
+    <div>
+      <div className="Header">
+        <h1>Note-Taking-App</h1>
+        <button type="button"> Add note </button>
+      </div>
+      <div className="noteGrid">
+        <NoteList></NoteList>
+      </div>
     </div>
   );
 }

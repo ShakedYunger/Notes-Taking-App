@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.note {
+  display: grid;
+  justify-items: center;
+}
+
+#date {
+  margin-top: 10px;
+}
+
+body {
+  background-color: #ffcdb2;
+}

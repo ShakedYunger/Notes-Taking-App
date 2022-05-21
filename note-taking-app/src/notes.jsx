@@ -1,33 +1,21 @@
 import React, { Component } from "react";
 
-class Notes extends Component {
-  choseDate() {
+export class Notes extends Component {
+  chooseDate() {
     return <input type="date" id="date"></input>;
   }
 
-  render() {
-    return <div>{this.choseDate()}</div>;
+  inputText() {
+    return <input type="text"></input>;
   }
-}
 
-class NoteList extends Component {
   render() {
     return (
-      <div>
-        <Notes></Notes>
-        <Notes></Notes>
+      <div className="note">
+        {this.chooseDate()}
+        {this.inputText()}
       </div>
     );
   }
 }
 
-export default class MainContainer extends Component {
-  render() {
-    return (
-      <div>
-        <NoteList></NoteList>
-        <NoteList></NoteList>
-      </div>
-    );
-  }
-}
