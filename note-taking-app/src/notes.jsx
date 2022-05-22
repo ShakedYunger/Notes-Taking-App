@@ -18,4 +18,3 @@ export class Notes extends Component {
     );
   }
 }
-
