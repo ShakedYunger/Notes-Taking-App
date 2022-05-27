@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 
 export class Notes extends Component {
-  chooseDate() {
-    return <input type="date" id="date"></input>;
-  }
+  //   chooseDate() {
+  //     return <input type="date" id="date"></input>;
+  //   }
 
   inputText() {
     return <input type="text"></input>;
@@ -12,7 +12,7 @@ export class Notes extends Component {
   render() {
     return (
       <div className="note">
-        {this.chooseDate()}
+        {/* {this.chooseDate()} */}
         {this.inputText()}
       </div>
     );
