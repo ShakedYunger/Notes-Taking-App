@@ -1,42 +1,26 @@
-html {
-  height: 100%;
-}
-
-.note {
-  display: grid;
-  justify-items: center;
-}
-
-#date {
-  margin-top: 10px;
-}
-
+html,
 body {
-  /* background-color: #ffcdb2; */
-  background-color: #fb49d5;
+  min-height: 100%;
   height: 100%;
+  background: #fb49d5;
 }
-
 .header {
-  background-color: #d32929;
-  height: 120px;
+  width: 100%;
+  height: 100px;
+  background: #d32929;
 }
 
-.header,
+.appWrapper {
+  margin: auto;
+  width: 60%;
+  min-width: 300px;
+  max-width: 600px;
+  height: 100%;
+  background: #00ff94;
+}
+
 .noteGrid {
-  width: clamp(600px, 60%, 1000px);
-  margin: 0 auto;
-}
-
-.appWrapped {
-  position: relative;
-  display: flex;
-}
-
-.noteGrid {
-  flex-grow: 1;
-  background-color: #00ff94;
-  height: 120px;
+  width: 100%;
 }
 
 .primaryButton {
