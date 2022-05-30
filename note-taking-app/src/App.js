@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="appWrapper">
       <Header></Header>
-      <div className="noteGrid"></div>
+      <div className="noteGrid">Notes will be there...</div>
     </div>
   );
 }
