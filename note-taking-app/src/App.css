@@ -2,7 +2,6 @@
 *::after,
 *::before {
   box-sizing: border-box;
-  /* font-family: "Inter"; */
   font-style: normal;
 }
 
@@ -18,14 +17,13 @@ body {
 }
 
 .noteGrid {
-  box-sizing: border-box;
-  padding: 0;
-  text-align: center;
+  justify-content: space-around;
   min-height: 254px;
   max-height: 100%;
   background-color: #ad858d;
   color: white;
-  text-align: center;
+  display: flex;
+  align-items: center;
 }
 
 .header {
@@ -36,11 +34,12 @@ body {
 }
 
 .primaryButton {
+  display: flex;
   border: none;
-  text-align: center;
+  border-radius: 20px;
   background-color: #f7cfb6;
   color: #6c6874;
-  border-radius: 20px;
   height: 35px;
   padding: 20px;
+  text-align: center;
 }
