@@ -10,7 +10,7 @@ function App() {
     <div className="appWrapper">
       <Header></Header>
       <div className="noteGrid">
-        <div className="text">Notes will be there...</div>
+        <div className="text">Notes will be here...</div>
       </div>
     </div>
   );
