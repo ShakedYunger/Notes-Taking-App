@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #ffb4a2;
+  background-color: #f4b7a6;
   height: 100%;
 }
 
@@ -33,19 +33,17 @@ body {
 }
 
 .header {
-  background-color: rgb(56, 9, 25);
   display: flex;
   justify-content: space-between;
+  align-items: center;
   height: 120px;
 }
 
 .primaryButton {
-  display: flex;
-  border: none;
-  border-radius: 20px;
-  background-color: #f7cfb6;
-  color: #6c6874;
   height: 35px;
   padding: 20px;
-  text-align: center;
+  border-radius: 20px;
+  color: #6c6874;
+  background-color: #f7cfb6;
+  border: none;
 }
