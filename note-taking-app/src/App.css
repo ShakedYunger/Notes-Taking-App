@@ -27,7 +27,7 @@ body {
 }
 
 .header {
-  background-color: aliceblue;
+  background-color: rgb(56, 9, 25);
   display: flex;
   justify-content: space-between;
   height: 120px;
