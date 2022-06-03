@@ -16,6 +16,12 @@ body {
   margin: 0 auto;
 }
 
+.header h1,
+.primaryButton {
+  display: flex;
+  align-items: center;
+}
+
 .noteGrid {
   justify-content: space-around;
   min-height: 254px;
