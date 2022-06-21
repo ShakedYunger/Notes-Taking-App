@@ -1,19 +1,25 @@
 import React, { Component } from "react";
 
-export class Notes extends Component {
-  //   chooseDate() {
-  //     return <input type="date" id="date"></input>;
-  //   }
+export class Note extends Component {
+  currentDate() {
+    return new Date().toLocaleDateString();
+  }
 
-  inputText() {
-    return <input type="text"></input>;
+  addTitle() {
+    return prompt("enter Title");
+  }
+
+  addContent() {
+    return prompt("enter content");
   }
 
   render() {
     return (
       <div className="note">
-        {/* {this.chooseDate()} */}
-        {this.inputText()}
+        <div>Note ID: {this.props.cardCounter}</div>
+        <div>Created Date: {this.currentDate()}</div>
+        <div>Title: {this.addTitle()}</div>
+        <div>Content: {this.addContent()}</div>
       </div>
     );
   }
