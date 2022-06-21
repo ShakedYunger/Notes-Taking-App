@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-export class Notes extends Component {
+export class Note extends Component {
   currentDate() {
     return new Date().toLocaleDateString();
   }
@@ -18,8 +18,8 @@ export class Notes extends Component {
       <div className="note">
         <div>Note ID: {this.props.cardCounter}</div>
         <div>Created Date: {this.currentDate()}</div>
-        {/* <div>Title: {this.addTitle()}</div>
-        <div>Content: {this.addContent()}</div> */}
+        <div>Title: {this.addTitle()}</div>
+        <div>Content: {this.addContent()}</div>
       </div>
     );
   }
